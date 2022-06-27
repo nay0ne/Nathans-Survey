@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html lang="en" class="no-js">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="survey form for pizza lovers- let us know your favourite type">
+      <title>Nathan's Pizza Survey Form</title>
+      <link rel="stylesheet" href="./resources/CSS/style.css">
+      <script>
+        document.documentElement.classList.remove("no-js");
+      </script>
+      <script src="./resources/js/modernizr.js"></script>
+
+    </head>
+    <body>
+        <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></>-->
+      <header>
+        <h1 class="title" id="title">Pizza Survey</h1>
+        <p class="title" id="description">Please provide info on your pizza eating habits</p>
+      </header>
+       <!--Add required server location in action below-->
+      <form id="survey-form" action="#">
+        <div class="white-text" id="form-container">
+          <div id="form-box">
+            <label id="name-label" for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name" required>
+          </div>
+          <div id="form-box">
+            <label id="email-label" for="email">Enter Email:</label>
+            <input type="email" id="email" placeholder="Name@email.com" required>
+          </div>
+          <div id="form-box">
+            <label id="number-label" for="number">Your age:</label>
+            <input type="number" min="18" max="99" maxlength="11" minlength="11" id="number" placeholder="age" required>
+          </div>
+          <div id="form-box">
+            <fieldset id="column">
+              <legend>Your income bracket</legend>
+              <br>
+              <label for="£0-per-week">
+                <input id="£0-per-week" type="radio" name="salary-range" value="low">£0 per week
+              </label>
+              <label for="up-to-£300-per-week">
+                <input id="up-to-£300-per-week" type="radio" name="salary-range" value="mid">Up to £300 per week
+              </label>
+              <label for="£300-£500-per-week">
+                <input id="£300-£500-per-week" type="radio" name="salary-range" value="high">£300 to £500 per week
+              </label>
+              <label for="£500-plus">
+                <input id="£500-plus" type="radio" name="salary-range" value="very-high">More than £500 per week
+              </label>
+            </fieldset>
+          </div>
+          <div id="form-box">
+            <fieldset>
+              <legend id=>How often do you eat Pizza?</legend>
+              <br>
+              <label for="weekly">
+              <input id="weekly" type="radio" name="frequency" value="weekly">Weekly
+              </label>
+              <label for="monthly">
+              <input id="monthly" type="radio" name="frequency" value="monthly">Monthly
+              </label>
+              <label for="rarely">
+              <input id="rarely" type="radio" name="frequency" value="rarely">Rarely
+              </label>
+            </fieldset>
+          </div>
+          <div id="form-box">
+            <fieldset>
+              <legend>Choose your favourite Pizza</legend>
+              <br>
+              <label for="pizza-choice" id="dropdown">
+              <select aria-label="Pizza choice" id="pizza-choice" name="pizza-choice" size="3">
+                <option value="margherita">Margherita</option>
+                <option value="veggie">Veggie</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="meat">Meat</option>
+                <option value="bbq-chicken">BBQ Chicken</option>
+                <option value="hawaiian">Hawaiian</option>
+                <option value="the-works">The Works</option>
+              </select>
+              </label>
+            </fieldset>
+          </div>
+          <div id="form-box">
+            <fieldset id="column">
+              <legend>Where do you like to buy pizza?</legend>
+              <br>
+              <label for="papa-john">
+              <input id="papa-john" type="checkbox" name="preferred-location" value="papa-john">Papa Johns
+              </label>
+              <label for="dominoes">
+              <input id="dominoes" type="checkbox" name="preferred-location" value="dominoes">Dominoes
+              </label>
+              <label for="pizza-hut">
+              <input id="pizza-hut" type="checkbox" name="preferred-location" value="pizza-hut">Pizza Hut
+              </label>
+              <label for="supermarket">
+              <input id="supermarket" type="checkbox" name="preferred-location" value="supermarket">Any Supermarket
+              </label>
+              <label for="restaurant">
+              <input id="restaurant" type="checkbox" name="preferred-location" value="restaurant">Restaurant
+              </label>
+              <label for="homemade">
+              <input id="homemade" type="checkbox" name="preferred-location" value="homemade">Homemade
+              </label>
+            </fieldset>
+          </div>
+          <div id="form-box">
+            <fieldset>
+              <legend>Anything you would like us to know?</legend>
+              <br>
+              <label for="comments-section"></label>
+              <textarea id="comments-section" name="comments-section" rows="5" cols="40" placeholder="Please tell us about your pizza preferences!"></textarea>
+            </fieldset>
+          </div>
+          <br>
+          <br>
+          <div id="submit-box">
+            <button id="submit" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </body>
+  </html>
