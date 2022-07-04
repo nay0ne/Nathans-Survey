@@ -48,8 +48,7 @@
   .column {
       display: flex;
       flex-flow: column nowrap;
-      justify-content: space-around;
-      text-align: center;
+      text-align: left;
   }
   
   legend {
@@ -100,7 +99,5 @@
   
        legend {
           color:antiquewhite;
-       }
-  
-      
+       }  
   }
