@@ -21,7 +21,7 @@
       </header>
        <!--Add required server location in action below-->
       <form id="survey-form" action="#">
-        <div class="white-text" id="form-container">
+        <div class="form-layout" id="form-container">
           <div class="form-box">
             <label id="name-label" for="name">Name:</label>
             <input type="text" id="name" placeholder="Enter Name" required>
@@ -35,7 +35,7 @@
             <input type="number" min="18" max="99" maxlength="11" minlength="11" id="number" placeholder="age" required>
           </div>
           <div class="form-box">
-            <fieldset id="column">
+            <fieldset class="column">
               <legend>Your income bracket</legend>
               <br>
               <label for="£0-per-week">
@@ -53,17 +53,17 @@
             </fieldset>
           </div>
           <div class="form-box">
-            <fieldset>
+            <fieldset class="column">
               <legend id=>How often do you eat Pizza?</legend>
               <br>
               <label for="weekly">
-              <input id="weekly" type="radio" name="frequency" value="weekly">Weekly
+              <input id="weekly" type="radio" name="frequency" value="weekly">Once week or more
               </label>
               <label for="monthly">
-              <input id="monthly" type="radio" name="frequency" value="monthly">Monthly
+              <input id="monthly" type="radio" name="frequency" value="monthly">Once or twice a month
               </label>
               <label for="rarely">
-              <input id="rarely" type="radio" name="frequency" value="rarely">Rarely
+              <input id="rarely" type="radio" name="frequency" value="rarely">Only very rarely
               </label>
             </fieldset>
           </div>
@@ -85,7 +85,7 @@
             </fieldset>
           </div>
           <div class="form-box">
-            <fieldset id="column">
+            <fieldset class="column">
               <legend>Where do you like to buy pizza?</legend>
               <br>
               <label for="papa-john">
