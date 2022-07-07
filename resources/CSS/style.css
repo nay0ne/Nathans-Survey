@@ -81,15 +81,11 @@ select {
   
   
   
-@media screen and (max-width: 365px) {
+@media only screen and (max-width: 365px) {
        
   #comments-section {
     max-width: 70vw;
     margin-left: 2%;
-    }
-  #submit {
-    height: 12vh;
-    width: 50vw;
     }
 }
   
