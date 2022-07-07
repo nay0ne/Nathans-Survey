@@ -65,6 +65,7 @@ select {
   font-size: calc(18px + 2vmin);
   height: 12vh;
   width: 80vw;
+  border: none;
   border-radius: 10px;
   margin-bottom: 30px;
   }
