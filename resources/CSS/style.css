@@ -89,9 +89,7 @@ select {
 }
 
 @media only screen and (min-width: 500px) {
-  .form-box {
-    flex-flow: row;
-  }
+
   .column {
     flex-flow: row;
   }
