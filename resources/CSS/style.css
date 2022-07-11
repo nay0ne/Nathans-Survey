@@ -85,8 +85,16 @@ select {
        
   #comments-section {
     max-width: 70vw;
-    margin-left: 2%;
     }
+}
+
+@media only screen and (min-width: 500px) {
+  .form-box {
+    flex-flow: row;
+  }
+  .column {
+    flex-flow: row;
+  }
 }
   
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
