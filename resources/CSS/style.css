@@ -6,7 +6,7 @@
     background: darkslategray url('../images/backgroundpizza1.webp');
     background-size: cover;
   }
-  /* add fallback slategray background*/
+
 .no-js body{
   background: darkslategray url('../images/backgroundpizza.jpg');
   background-size: cover;
