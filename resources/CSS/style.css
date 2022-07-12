@@ -1,5 +1,6 @@
 .no-webp body{
     background: darkslategray url('../images/backgroundpizza.jpg');
+    background-size: cover;
   }
   
 .webp body{
@@ -9,7 +10,6 @@
 
 .no-js body{
   background: darkslategray;
-  background-size: cover;
   }
   
 .form-layout {
