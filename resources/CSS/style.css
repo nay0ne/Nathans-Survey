@@ -2,7 +2,7 @@
     background: darkslategray url('../images/backgroundpizza.jpg');
     background-size: cover;
   }
-  
+
 .webp body{
     background: darkslategray url('../images/backgroundpizza1.webp');
     background-size: cover;
@@ -11,7 +11,7 @@
 .no-js body{
   background: darkslategray;
   }
-  
+
 .form-layout {
   color:antiquewhite;
   text-shadow: 1px 1px #0c0a0a;
@@ -27,7 +27,7 @@
   justify-content: space-evenly;
   align-items: center; 
   }
-  
+
 .title {
   background: rgb(0,0,0, 0.6);
   border-radius: 10px;
@@ -38,7 +38,7 @@
   font-size: 1.2em;
   text-align: center;
   }
-  
+
 .form-box {
   background: rgb(0,0,0, 0.7);
   border-radius: 10px;
@@ -46,21 +46,21 @@
   padding: 2vmin;
   text-align: center;
   }
-  
+
 .column {
   display: flex;
   flex-flow: column nowrap;
   text-align: left;
   }
-  
+
 legend {
   text-align: center;
   }
-  
+
 select {
   width: 80%;
   }
-  
+
 #submit {
   background-color: #5cdb5c;
   font-weight: bold;
@@ -71,27 +71,23 @@ select {
   border-radius: 10px;
   margin-bottom: 30px;
   }
-  
+
 #submit:hover {
   cursor: pointer;
   }
-  
+
 .form-box:hover {
   background: rgb(0,0,0, 0.9);
   transition: all .2s ease-in-out; 
   }
-  
-  
-  
-@media only screen and (max-width: 365px) {
-       
+
+@media only screen and (max-width: 365px) {   
   #comments-section {
     max-width: 70vw;
     }
 }
 
 @media only screen and (min-width: 625px) {
-
   .column {
     flex-flow: row;
     justify-content: space-between;
@@ -105,7 +101,6 @@ select {
   body {
     background: darkslategray;
 }
-  
   legend {
     color:antiquewhite;
 }  
