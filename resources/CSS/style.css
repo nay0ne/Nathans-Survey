@@ -78,7 +78,7 @@ label {
   cursor: pointer;
   }
 
-.form-box:hover {
+div.form-box:hover {
   background: rgb(0,0,0, 0.9);
   transition: all .2s ease-in-out; 
   }
