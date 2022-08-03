@@ -69,7 +69,7 @@ select {
   width: 80vw;
   border: none;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin: 30px;
   }
 
 #submit:hover {
