@@ -61,6 +61,10 @@ select {
   width: 80%;
   }
 
+label {
+  margin-right:12px;
+}
+
 #submit {
   background-color: #5cdb5c;
   font-weight: bold;
